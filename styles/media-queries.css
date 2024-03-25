@@ -1,0 +1,21 @@
+/* MOBILE FIRST */
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    background-color: red;
+  }
+
+  .list {
+    display: grid;
+    /*  grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  }
+}
+
+/* Medium Mobile */
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    background-color: purple;
+  }
+}
